@@ -28,7 +28,7 @@
             display-name = "MAIN";
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp E             &kp R               &kp T      &kp Y            &kp U      &kp I                  &kp O    &kp P     &kp DEL
-&kp LEFT_ALT    &kp A  &kp S  &kp D             &kp F               &kp G      &kp H            &kp J      &kp K                  &kp L    &kp SEMI  &kp ENTER
+&kp LEFT_ALT    &kp A  &kp S  &kp D             &kp F               &kp G      &kp H            &kp J      &kp K                  &kp L    &kp SEMI  &kp SINGLE_QUOTE
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V               &kp B      &kp N            &kp M      &kp COMMA              &kp DOT  &kp FSLH  &to 3
                               &mt LCTRL ESCAPE  &mt LEFT_GUI ENTER  &lt 1 TAB  &lt 2 BACKSPACE  &kp SPACE  &mt RIGHT_SHIFT COLON
             >;
@@ -47,10 +47,10 @@
         raise_layer {
             display-name = "NUM";
             bindings = <
-&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP    &kp HOME    &kp PSCRN  &kp PG_UP   &kp SLCK         &kp CLCK
-&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp LEFT_ARROW  &kp DOWN    &kp UP     &kp RIGHT   &kp INS          &mt RCTRL K_APP
-&kp LALT         &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp C_VOL_DN    &kp C_PREV  &kp DOWN   &kp C_NEXT  &kp PAUSE_BREAK  &kp RALT
-                                             &trans     &trans     &trans        &trans          &trans      &trans
+&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp C_VOL_UP    &kp HOME  &kp PSCRN  &kp PG_UP      &kp SLCK         &kp CLCK
+&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS   &kp LEFT_ARROW  &kp DOWN  &kp UP     &kp RIGHT      &kp INS          &mt RCTRL K_APP
+&kp LALT         &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp C_VOL_DN    &kp END   &kp DOWN   &kp PAGE_DOWN  &kp PAUSE_BREAK  &kp RALT
+                                             &trans     &trans     &trans        &trans          &trans    &trans
             >;
         };
 
